@@ -4,30 +4,6 @@ A Flutter-based fitness tracking app designed to help users track **workouts, nu
 
 FitTrack also provides **AI-powered fitness guidance and food analysis** to make fitness tracking more personalized and informative.
 
----
-
-## 📱 App Screenshots
-
-<p align="center">
-  <img src="screenshots/onboarding.png" width="180"/>
-  <img src="screenshots/login.png" width="180"/>
-  <img src="screenshots/home.png" width="180"/>
-  <img src="screenshots/activity.png" width="180"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/nutrition.png" width="180"/>
-  <img src="screenshots/hydration.png" width="180"/>
-  <img src="screenshots/progress.png" width="180"/>
-  <img src="screenshots/profile.png" width="180"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/ai_coach.png" width="180"/>
-  <img src="screenshots/food_scanner.png" width="180"/>
-</p>
-
----
 
 ## ✨ Features
 
@@ -159,65 +135,6 @@ Contains:
 * API/Firebase communication
 
 ---
-
-## 📂 Project Structure
-
-```text
-lib/
-│
-├── app/
-│   ├── app.dart
-│   ├── router/
-│   └── themes/
-│
-├── core/
-│   ├── constant/
-│   ├── errors/
-│   ├── network/
-│   ├── utils/
-│   └── widgets/
-│
-├── features/
-│   │
-│   ├── authentication/
-│   │   ├── data/
-│   │   ├── domain/
-│   │   └── presentation/
-│   │
-│   ├── activity/
-│   │   ├── data/
-│   │   ├── domain/
-│   │   └── presentation/
-│   │
-│   ├── ai_coach/
-│   │   ├── data/
-│   │   ├── domain/
-│   │   └── presentation/
-│   │
-│   ├── dashboard/
-│   │   └── data/
-│   │
-│   ├── diet/
-│   │   ├── data/
-│   │   ├── domain/
-│   │   └── presentation/
-│   │
-│   ├── onboarding/
-│   │   └── presentation/
-│   │
-│   ├── profile/
-│   │   ├── data/
-│   │   ├── domain/
-│   │   └── presentation/
-│   │
-│   └── water/
-│       ├── data/
-│       ├── domain/
-│       └── presentation/
-│
-└── main.dart
-```
-
 ---
 
 ## 🔥 Firebase Integration
